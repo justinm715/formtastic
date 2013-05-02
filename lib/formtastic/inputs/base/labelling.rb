@@ -12,7 +12,7 @@ module Formtastic
         def label_html_options
           {
             :for => input_html_options[:id],
-            :class => ['label'],
+            :class => ['formtastic_label'],
           }
         end
         
